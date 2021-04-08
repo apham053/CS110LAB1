@@ -13,6 +13,11 @@ header{
   z-index: 100;
 }
 
+.nav-link:hover{
+  color: #0091e3 !important;
+  text-decoration: underline;
+}
+
 .nav-item img{
   transform: translateX(-25%);
   transform: translateY(25%);
