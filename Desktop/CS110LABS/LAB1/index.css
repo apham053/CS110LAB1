@@ -2,7 +2,8 @@
 body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     margin: 0;
-    background-color: #e6ecf0;
+    background: transparent;
+    background-color: #E6ECF0;
   }
   
   /* TODO: Create CSS for your Twitter Mockup */
@@ -30,4 +31,91 @@ header{
 #content-wrapper{
   max-width: 1190px;
   margin: 56px auto;
+  display:flex
+}
+
+#content-left{
+  position:relative;
+  width:290x;
+}
+
+#cover-picture{
+  position:absolute;
+  border:40px solid black;
+}
+
+#profile-info{
+  position:absolute;
+  top:70px;
+  left:30px;
+}
+
+#profile-pic{
+  position:absolute;
+  object-fit: cover;
+  object-position: center center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  top:30px;
+  border:3px solid white;
+}
+
+#profile-name{
+  position:absolute;
+  left:125px;
+  top:65px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#profile-at{
+  position:absolute;
+  left:125px;
+  top:85px;
+  color: #808080
+}
+
+#profile-stats{
+  position:absolute;
+  top:250px;
+  font-weight: bold;
+  display: flex
+}
+
+#profile-tweets{
+  position:absolute;
+  left:50px;
+}
+
+#profile-following{
+  position:absolute;
+  left:150px;
+}
+
+#profile-followers{
+  position:absolute;
+  left:270px;
+}
+
+#profile-tweetsnum{
+  position:absolute;
+  left:50px;
+  top:35px;
+}
+
+#profile-followingnum{
+  position:absolute;
+  left:150px;
+  top:35px;
+}
+
+#profile-followersnum{
+  position:absolute;
+  left:270px;
+  top:35px;
+}
+
+.profile-nums{
+  color: #49b3f4
 }
