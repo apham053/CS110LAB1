@@ -19,6 +19,13 @@ header{
   text-decoration: underline;
 }
 
+.nav-items{
+  position: relative;
+  left:360px;
+  font-weight:bold;
+  margin: 0px 10px;
+}
+
 .nav-item img{
   transform: translateX(-25%);
   transform: translateY(25%);
@@ -26,6 +33,15 @@ header{
   position: absolute;
   height: 25px;
   width: 25px;
+}
+
+.nav-button{
+  position: relative;
+  left:275%;
+}
+
+#button1{
+  border-radius:20px;
 }
 
 #content-wrapper{
