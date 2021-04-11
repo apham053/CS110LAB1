@@ -201,13 +201,61 @@ header{
   height: 350px;
   background-color: white;
   padding: 10px;
+  
 }
 
 #content-right-text{
   font-weight: bold;
   font-size:large;
+  height:10px;
 }
 
 #content-right-list{
   display:flex;
+  flex-direction: column;
+  
+}
+
+.content-right-item{
+  border-bottom: 1px solid #e6ecf0;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.follow-pic{
+  position:relative;
+  object-fit: cover;
+  object-position: center center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.follow-list-name{
+  position: relative;
+  font-weight: bold;
+  left: 70px;
+  bottom: 65px;
+}
+
+.follow-list-at{
+  position: relative;
+  left: 135px;
+  bottom: 105px;
+}
+
+#follow-button{
+  position: relative;
+  border-style: solid;
+  border-color: #49b3f4;
+  border-radius:100px;
+  font-weight: bold;
+  background-color: white;
+  color:#49b3f4;
+  right: 690px;
+  bottom: 115px;
+}
+
+#follow-button2{
+  top:65px;
 }
