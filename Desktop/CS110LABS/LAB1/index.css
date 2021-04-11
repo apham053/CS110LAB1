@@ -41,7 +41,11 @@ header{
 }
 
 #button1{
-  border-radius:20px;
+  border: none;
+  border-radius:100px;
+  font-weight: bold;
+  background-color: #49b3f4;
+  color:white;
 }
 
 #content-wrapper{
