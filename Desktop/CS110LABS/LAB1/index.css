@@ -153,10 +153,36 @@ header{
   position: relative;
   border-bottom: 1px solid #e6ecf0;
   min-height: 51px;
-  width:200px;
+  width:450px;
   
 }
 
 .module{
   margin-right:15px;
+}
+
+.tweet-name{
+  position:relative;
+  left:90px;
+  bottom:40px;
+  font-weight:bold;
+}
+.tweet-at{
+  position:relative;
+  left: 200px;
+}
+
+.tweet-text{
+  position:relative;
+}
+
+.tweet-pic{
+  position:relative;
+  object-fit: cover;
+  object-position: center center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  top:15px;
+  left:15px;
 }
