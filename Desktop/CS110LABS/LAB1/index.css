@@ -139,7 +139,11 @@ header{
 }
 
 .profile-nums{
-  color: #49b3f4
+  color: #49b3f4;
+}
+
+.profile-text{
+  color: #67757f
 }
 
 #content-center{
@@ -154,7 +158,6 @@ header{
   border-bottom: 1px solid #e6ecf0;
   min-height: 51px;
   width:450px;
-  
 }
 
 .module{
@@ -164,16 +167,21 @@ header{
 .tweet-name{
   position:relative;
   left:90px;
-  bottom:40px;
+  bottom:35px;
   font-weight:bold;
 }
 .tweet-at{
   position:relative;
-  left: 200px;
+  bottom: 75px;
+  left: 135px;
+  color: #808080;
 }
 
 .tweet-text{
-  position:relative;
+  position:absolute;
+  left:85px;
+  width: 350px;
+  top:50px;
 }
 
 .tweet-pic{
@@ -183,6 +191,6 @@ header{
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  top:15px;
+  top:20px;
   left:15px;
 }
