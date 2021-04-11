@@ -244,7 +244,7 @@ header{
   bottom: 105px;
 }
 
-#follow-button{
+.follow-button{
   position: relative;
   border-style: solid;
   border-color: #49b3f4;
