@@ -270,6 +270,12 @@ border-radius:100px;
 font-weight: bold;
 background-color: white;
 color:#49b3f4;
-right: 690px;
 bottom: 115px;
+left: 50px;
+}
+
+@media all and (max-width: 1200px){
+  #content-right{
+    display:none;
+  }
 }
