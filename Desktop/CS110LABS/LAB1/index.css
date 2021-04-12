@@ -174,7 +174,6 @@ flex-direction: column;
 background-color: white;
 position: relative;
 border-bottom: 1px solid #e6ecf0;
-max-height: 120px;
 width:450px;
 }
 
@@ -278,4 +277,32 @@ left: 50px;
   #content-right{
     display:none;
   }
+}
+
+.tweet-heart{
+  position:relative;
+  left:90px;
+  bottom:20px;
+  width:25px;
+  height:25px;
+}
+
+.tweet-icons a{
+  text-decoration: none;
+}
+
+.tweet-comment{
+  position:relative;
+  left:190px;
+  bottom:20px;
+  width:25px;
+  height:25px;
+}
+
+.tweet-retweet{
+  position:relative;
+  left:290px;
+  bottom:20px;
+  width:25px;
+  height:25px;
 }
