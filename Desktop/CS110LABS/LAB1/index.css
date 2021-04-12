@@ -33,7 +33,7 @@ text-decoration: underline;
 
 .nav-items{
 position: relative;
-left:30%;
+left:70%;
 font-weight:bold;
 margin: 0px 10px;
 }
@@ -53,8 +53,8 @@ left:275%;
 }
 
 .tweet-nav-button{
-  position: relative;
-  left:200%;
+  position: absolute;
+  left:75%;
   }
 
 #button1{
